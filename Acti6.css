@@ -1,0 +1,100 @@
+
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color:  rgb(155, 205, 250);
+text-align: center;
+    
+}
+
+.contenedor{
+display: flex; 
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+
+
+.imgcard{
+
+display: flex;
+justify-content: center;
+width: 80%;
+height: 120px;       /* mismo alto para todas */
+object-fit: cover;   /* recorta sin deformar */
+border-radius: 10px;
+margin: 15px;
+
+
+}
+
+.card{
+width: calc(33.33% - 20px); 
+width: 200px;
+background-color: white;
+border-radius: 10px;
+overflow: hidden;
+padding: 10px;
+box-shadow: 0 0 10px (0, 0, 0, 0.1);
+
+}
+
+
+.card h2{
+    text-align: center;
+}
+
+
+.btn{
+display: block;
+text-align: center;
+background-color: rgb(62, 65, 241);
+color: white;
+text-decoration: none;
+border: none;
+padding: 4px 8px;
+border-radius: 5px;
+cursor: pointer;
+margin: 45px;
+
+
+}
+
+.btn:hover{
+background-color:  rgb(79, 161, 228);
+transform: translateY(-3px);
+}
+
+
+.btn2{
+display: inline-block;
+background-color: rgb(62, 65, 241);
+color: white;
+text-decoration: none;
+border: none;
+padding: 4px 8px;
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+.btn2:hover{
+background-color:  rgb(79, 161, 228);
+transform: translateY(-3px);
+}
+
+
+.tituprincipal{
+padding: 10PX;
+margin-bottom: 15PX;
+text-align: center;
+margin-top: 15PX;
+
+}.tituprincipal2{
+padding: 10PX;
+margin-bottom: 15PX;
+text-align: center;
+margin-top: 15PX;
+
+}
